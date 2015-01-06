@@ -25,6 +25,4 @@ public class Author {
 		author.lastname = lastName;
 		return author;
 	}
-	
-	
 }

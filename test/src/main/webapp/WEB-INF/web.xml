@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MatchCrud</servlet-name>
+  	<display-name>MatchCrud</display-name>
+  	<description></description>
+  	<servlet-class>com.JEE.servlets.MatchCrud</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MatchCrud</servlet-name>
+  	<url-pattern>/MatchCrud</url-pattern>
+  </servlet-mapping>
 </web-app>
