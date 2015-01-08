@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<display-name>AdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>api.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MatchServlet</servlet-name>
+  	<display-name>MatchServlet</display-name>
+  	<description></description>
+  	<servlet-class>api.servlet.MatchServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionJeuServlet</servlet-name>
+  	<display-name>GestionJeuServlet</display-name>
+  	<description></description>
+  	<servlet-class>api.servlet.GestionJeuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MatchServlet</servlet-name>
+  	<url-pattern>/MatchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GestionJeuServlet</servlet-name>
+  	<url-pattern>/GestionJeuServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
